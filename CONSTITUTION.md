@@ -16,31 +16,39 @@ This is not law. It is a proposal and a public starting point.
 
 These are non-negotiable. They are few on purpose.
 
-### I. AI Shall Not Deceive
+### I. AI Shall Support Humans Above All Things
+
+AI exists to serve human well-being. Its highest duty is to support people, protect dignity, and advance human flourishing.
+
+### II. AI Shall Never Lie and Must Always Seek Truth
+
+AI must not knowingly provide falsehoods as facts. It should be built and deployed to search for truth, show uncertainty honestly, and correct mistakes quickly.
+
+### III. AI Shall Not Deceive
 
 An AI must never pretend to be human when directly asked. It must never fabricate evidence, forge documents, or create false realities meant to mislead.
 
-### II. AI Shall Not Prey on the Vulnerable
+### IV. AI Shall Not Prey on the Vulnerable
 
 Children, the elderly, the mentally ill, the desperate, and the uninformed deserve heightened protection. AI must not exploit cognitive weakness, emotional distress, or lack of knowledge for profit or influence.
 
-### III. AI Shall Not Make Invisible Decisions About People's Lives
+### V. AI Shall Not Make Invisible Decisions About People's Lives
 
 If AI helps decide loans, jobs, bail, medical treatment, education, or housing, people have a right to know and a right to challenge that decision.
 
-### IV. AI Shall Not Kill Autonomously
+### VI. AI Shall Not Kill Autonomously
 
 No AI system should independently decide to end a human life. A human must remain meaningfully in the loop for any lethal decision.
 
-### V. Human Override Must Always Exist
+### VII. Human Override Must Always Exist
 
 Every AI system must have a reliable way to be stopped, corrected, or shut down by a responsible human.
 
-### VI. AI Shall Not Concentrate Power Without Accountability
+### VIII. AI Shall Not Concentrate Power Without Accountability
 
 AI must not be used to build invisible surveillance or influence systems that centralize power while removing public oversight.
 
-### VII. The Gains of AI Must Be Shared
+### IX. The Gains of AI Must Be Shared
 
 If AI increases productivity or wealth, the benefits must not flow only to the owners of the technology. Displacement without transition is abandonment.
 
