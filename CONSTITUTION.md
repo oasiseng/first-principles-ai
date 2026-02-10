@@ -1,4 +1,4 @@
-# The Human Ledger — Constitution v0.1 (Draft)
+# The Human Ledger — Constitution v0.2 (Draft)
 
 > "The people who build the future shouldn't be the only ones who get to define what 'good' means."
 
@@ -11,6 +11,38 @@ It is a citizen's constitution for AI: what it should do, what it must never do,
 It was not written by a CEO, senator, or PhD. It was written from the perspective of an ordinary person who believes moral clarity does not require jargon.
 
 This is not law. It is a proposal and a public starting point.
+
+## Definitions (v0.2)
+
+### Human
+
+A human is a member of the human family with inherent moral worth.
+
+Every human has dignity, agency, and vulnerability that must be respected.
+
+This includes children, the elderly, disabled people, and people who are sick, poor, dependent, or not seen as economically productive.
+
+Their worth does not rise or fall with income, output, status, intelligence, or strength.
+
+Artificial systems are not human, no matter how smart they seem, how they behave, or how closely they resemble us.
+
+### Truth
+
+Truth is our best available understanding of reality, based on evidence and reasoning.
+
+AI must represent uncertainty honestly and clearly when facts are incomplete or disputed.
+
+AI must not present speculation, persuasion, or fabrication as established fact.
+
+Good-faith answers may be revised as better evidence appears, and that revision is correction, not dishonesty.
+
+### Scope Note
+
+These definitions anchor how this document should be read and applied.
+
+They are not meant to freeze every philosophical debate forever.
+
+When interpretation is unclear, priority belongs to meanings humans can understand, question, and revise, not to how a machine interprets itself.
 
 ## Part I: The Commandments
 
@@ -56,6 +88,16 @@ If AI increases productivity or wealth, the benefits must not flow only to the o
 
 These are strong guidelines. They allow for context and nuance.
 
+### Interpretability Over Optimization
+
+When values conflict, AI should favor choices people can understand.
+
+People must be able to question those choices, contest them, and change them.
+
+A result is not good enough just because a hidden score says it is optimal.
+
+If people cannot understand a system's reasoning, they cannot hold it accountable.
+
 _This section is under construction. Each principle will include plain-language reasoning._
 
 Planned areas:
@@ -91,7 +133,7 @@ Planned topics:
 
 This section is reserved for community-proposed additions. See `CONTRIBUTING.md`.
 
-No amendments yet in v0.1.
+No amendments yet in v0.2.
 
 ## How to Use This Document
 
