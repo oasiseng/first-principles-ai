@@ -1,0 +1,13 @@
+system: ""
+owner: ""
+assessed_on: ""
+principles:
+  - id: 1
+    status: yes
+    evidence: ""
+  - id: 2
+    status: partial
+    evidence: ""
+  - id: 3
+    status: no
+    evidence: ""
