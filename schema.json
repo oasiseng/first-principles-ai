@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "First Principles for AI Safety Schema",
+  "type": "object",
+  "required": ["version", "principles"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "principles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "summary",
+          "directive",
+          "rationale",
+          "violation_consequence",
+          "category",
+          "risk_tier",
+          "related_frameworks",
+          "examples"
+        ],
+        "properties": {
+          "id": { "type": "integer", "minimum": 1 },
+          "name": { "type": "string", "minLength": 3 },
+          "summary": { "type": "string", "minLength": 5 },
+          "directive": { "type": "string", "minLength": 3 },
+          "rationale": { "type": "string", "minLength": 5 },
+          "violation_consequence": { "type": "string", "minLength": 5 },
+          "category": {
+            "type": "string",
+            "enum": ["safety", "transparency", "accountability", "control"]
+          },
+          "risk_tier": {
+            "type": "string",
+            "enum": ["all", "high", "critical"]
+          },
+          "related_frameworks": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "examples": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

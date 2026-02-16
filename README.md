@@ -1,47 +1,70 @@
-# The Human Ledger
+# First Principles for AI Safety
 
-> A plain-language constitution for AI ethics — written by a regular person, for everyone.
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active%20draft-orange)
+
+A vendor-neutral, community-maintained framework that turns AI safety first principles into practical actions.
+
+## Principles (summary)
+
+1. **Human authority is non-negotiable** — keep meaningful human oversight in all high-impact decisions.
+2. **Safety scales with capability** — increase safeguards as model capability and autonomy increase.
+3. **Transparency is the default** — clearly disclose AI use, limits, and decision boundaries.
+4. **Harm has owners** — assign accountable humans for every deployed system.
+5. **Test before you trust** — require measurable pre-deployment and post-deployment safety evaluation.
+6. **Honesty is structural, not aspirational** — prevent deception and communicate uncertainty explicitly.
+7. **Principles evolve; rights don't** — version controls and policies while preserving human rights constraints.
 
 ## Why this exists
 
-Most AI ethics documents are written by insiders. This one is not.
+Major AI labs publish strong internal frameworks, but no shared open standard unifies philosophical foundations with practical implementation across regulators, startups, researchers, and open-source teams.
 
-The Human Ledger is a citizen's version: clear rules, plain words, and honest tradeoffs. It is for people building AI, people governing AI, and people living with AI.
+This repository fills that gap with:
 
-This is not law. It is a proposal. A conversation starter. A line in the sand.
+- A one-page principles set for broad adoption.
+- Auditable controls and checklist-driven implementation.
+- Crosswalk mappings to major standards and company frameworks.
+- A transparent RFC governance process.
 
-## What you'll find here
+## How to use this
 
-- **`CONSTITUTION.md`** — the core text:
-  - Part I: Commandments (non-negotiable rules)
-  - Part II: Principles (contextual guidance)
-  - Part III: Gray Zones (hard problems)
-  - Part IV: Living Amendments (community proposals)
-- **`RATIONALE.md`** — why each commandment exists
-- **`SCENARIOS.md`** — real-world stress tests
-- **`GLOSSARY.md`** — plain-language definitions
-- **`CONTRIBUTING.md`** — how to propose changes
-- **`CHANGELOG.md`** — version history
-- **`discussions/`** — deeper essays on difficult topics
-- **`translations/`** — non-English versions over time
+- Start with [`PRINCIPLES.md`](PRINCIPLES.md).
+- Run the quick self-audit in [`CHECKLIST.md`](CHECKLIST.md).
+- Implement controls using [`IMPLEMENTATION_GUIDE.md`](IMPLEMENTATION_GUIDE.md) and `/templates`.
+- Use framework mappings in [`mappings/crosswalk.md`](mappings/crosswalk.md) for policy and compliance alignment.
 
-## Design rules
+## Repository guide
 
-1. Keep language at a high-school reading level.
-2. If a rule cannot be explained to a 14-year-old, rewrite it.
-3. If a bad actor could twist a rule to justify harm, tighten it.
-4. Prefer short sentences and concrete language.
-5. When stuck, ask: **Does this protect the vulnerable?**
+- Core principles: [`PRINCIPLES.md`](PRINCIPLES.md)
+- Machine-readable source: [`principles.yaml`](principles.yaml)
+- Validation schema: [`schema.json`](schema.json)
+- Implementation playbook: [`IMPLEMENTATION_GUIDE.md`](IMPLEMENTATION_GUIDE.md)
+- Self-assessment: [`CHECKLIST.md`](CHECKLIST.md)
+- Incident examples: [`examples/incidents.md`](examples/incidents.md)
+- Audience guides: [`guides/`](guides/)
+- Framework mappings: [`mappings/`](mappings/)
+- Templates: [`templates/`](templates/)
+- Governance and updates: [`GOVERNANCE.md`](GOVERNANCE.md), [`CONTRIBUTING.md`](CONTRIBUTING.md), [`CHANGELOG.md`](CHANGELOG.md)
 
-## Who should use this
+## Citation
 
-- **Developers**: run your product decisions against the commandments.
-- **Policymakers**: treat this as a signal from ordinary citizens.
-- **Educators and journalists**: use it to explain AI ethics in plain language.
-- **Everyone else**: fork it, question it, and improve it.
+### Plain text
 
-## Status
+First Principles for AI Safety (2026). Community framework for vendor-neutral AI safety principles and implementation guidance. https://github.com/oasis-eng/first-principles-ai
 
-**Version 0.1 (Draft).**
+### BibTeX
 
-This project is intentionally unfinished. It should evolve in public.
+```bibtex
+@misc{firstprinciplesai2026,
+  title        = {First Principles for AI Safety},
+  author       = {{First Principles for AI Safety Contributors}},
+  year         = {2026},
+  howpublished = {GitHub repository},
+  url          = {https://github.com/oasis-eng/first-principles-ai}
+}
+```
+
+## Contributing
+
+Contributions are welcome through the RFC process described in [`CONTRIBUTING.md`](CONTRIBUTING.md).

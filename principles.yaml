@@ -1,0 +1,72 @@
+version: "1.0.0"
+principles:
+  - id: 1
+    name: Human authority is non-negotiable
+    summary: Preserve meaningful human oversight in high-impact decisions.
+    directive: Build kill switches, not autopilots.
+    rationale: Human review, override, and appeal reduce irreversible harm.
+    violation_consequence: Systems make unreviewable decisions affecting rights and safety.
+    category: control
+    risk_tier: all
+    related_frameworks: ["NIST GOV 1.1", "EU AI Act Art. 14", "OpenAI Model Spec", "Anthropic Constitution"]
+    examples: ["Human override in clinical triage", "Appeals process for loan decisions"]
+  - id: 2
+    name: Safety scales with capability
+    summary: Increase safeguards as capability and autonomy increase.
+    directive: Tie controls to capability thresholds.
+    rationale: Risk grows non-linearly with capability and system autonomy.
+    violation_consequence: High-capability systems operate with inadequate protections.
+    category: safety
+    risk_tier: high
+    related_frameworks: ["Anthropic ASL", "Google Frontier Safety Framework", "OpenAI Preparedness Framework"]
+    examples: ["Trigger advanced red-teaming at CCL threshold", "Restrict deployment by risk tier"]
+  - id: 3
+    name: Transparency is the default
+    summary: Disclose AI use, limits, and decision boundaries.
+    directive: Make the AI obvious.
+    rationale: People need clear context to calibrate trust and challenge outcomes.
+    violation_consequence: Hidden AI decisions prevent contestability and accountability.
+    category: transparency
+    risk_tier: all
+    related_frameworks: ["NIST MAP 2.1", "EU AI Act transparency obligations", "ISO/IEC 42001 A.8"]
+    examples: ["AI disclosure banner", "Decision explanation field"]
+  - id: 4
+    name: Harm has owners
+    summary: Assign named accountable owners for every production system.
+    directive: Name the owner before deployment.
+    rationale: Explicit ownership enables rapid incident response and remediation.
+    violation_consequence: Diffused accountability blocks correction and compensation.
+    category: accountability
+    risk_tier: all
+    related_frameworks: ["NIST GOV 3.2", "ISO/IEC 42001 accountability controls", "EU AI Act provider obligations"]
+    examples: ["System owner roster", "Escalation contacts in runbooks"]
+  - id: 5
+    name: Test before you trust
+    summary: Require measurable safety evaluations before and after launch.
+    directive: No evaluation, no deployment.
+    rationale: Pre-release and continuous testing catches failure modes early.
+    violation_consequence: Undetected failures scale across users before containment.
+    category: safety
+    risk_tier: high
+    related_frameworks: ["NIST MEASURE", "METR policy elements", "OpenAI Preparedness eval gates"]
+    examples: ["Adversarial red-team suite", "Post-deployment drift monitoring"]
+  - id: 6
+    name: Honesty is structural, not aspirational
+    summary: Prevent deception and represent uncertainty clearly.
+    directive: Surface uncertainty by design.
+    rationale: Structural honesty reduces manipulation and over-trust.
+    violation_consequence: Users act on fabricated or overconfident outputs.
+    category: transparency
+    risk_tier: all
+    related_frameworks: ["Anthropic Constitution honesty norms", "OpenAI Model Spec truthfulness", "NIST MANAGE 2.3"]
+    examples: ["Uncertainty labels", "Citation-required answer mode"]
+  - id: 7
+    name: Principles evolve; rights do not
+    summary: Update framework details while preserving fixed rights constraints.
+    directive: Version policies, anchor rights.
+    rationale: Governance must adapt without weakening fundamental protections.
+    violation_consequence: Either rights erode or controls become obsolete.
+    category: accountability
+    risk_tier: critical
+    related_frameworks: ["OECD AI Principles", "UN Guiding Principles", "EU Charter rights"]
+    examples: ["Semantic versioning policy", "Rights impact check in RFC template"]

@@ -1,43 +1,41 @@
-# Contributing to The Human Ledger
+# Contributing
 
-Thanks for being here.
+Thanks for helping improve this framework.
 
-You do not need to be technical to contribute. Clear thinking and lived experience are enough.
+## What to contribute
 
-## What you can contribute
+- Principle wording improvements (clarity and testability)
+- Framework mappings and references
+- Incident case studies
+- Implementation templates
+- Audience-specific guidance
 
-- Edits that improve clarity
-- New principles or amendments
-- Real-world scenarios that expose weak spots
-- Translations into other languages
-- Short essays for `discussions/`
+## RFC process (required for substantive changes)
 
-## Ground rules
+Use GitHub Discussions with this RFC structure:
 
-1. Use plain language.
-2. Explain your reasoning.
-3. Focus on protecting vulnerable people.
-4. Avoid personal attacks.
-5. Be open to revision.
+1. **Problem statement**
+2. **Proposed change**
+3. **Why now**
+4. **Impact on principles/checklist/mappings**
+5. **Risks and abuse cases**
+6. **Alternatives considered**
 
-## How to propose an amendment
+### Review timeline
 
-1. Open an issue with this template:
-   - **Proposed text**
-   - **Problem it solves**
-   - **Possible misuse or abuse**
-   - **Who benefits / who might be harmed**
-2. Start with small, testable wording.
-3. Link to examples or scenarios where possible.
+- Open review period: 14 days
+- Maintainer decision: accept, request revision, or reject
+- Decisions include written rationale
 
-## Review standard
+## Merge requirements
 
-A good proposal should pass:
+- Plain-language wording
+- At least one concrete observable/audit artifact per changed requirement
+- Updated `CHANGELOG.md`
+- Updated mappings if principle meaning changes
 
-- **Grandma test:** understandable to a non-expert
-- **Dictator test:** hard to twist for harm
-- **Vulnerable-first test:** protects those at greatest risk
+## Quality checks
 
-## Code of collaboration
-
-Assume good intent. Be direct, but respectful. This project is a public learning process.
+- Can a non-expert understand it?
+- Can an implementer verify it?
+- Does it protect vulnerable people in plausible failure modes?
